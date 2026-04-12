@@ -37,36 +37,39 @@ const DEMO_PROJECTS = [
   },
   {
     id: 4,
-    title: "Blog Platform",
+    title: "Resposive UI",
     description:
-      "Markdown-powered blog platform with a rich text editor, tagging system, and SEO-optimized pages.",
+      "A clean and fully responsive bakery website UI built with HTML and CSS, featuring modern layouts and optimized design for all screen sizes.",
     image:
-      "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=600&q=80",
-    tech_stack: ["React", "JavaScript", "Bootstrap", "HTML"],
-    live_url: "",
-    github_url: "https://github.com",
+      "https://media.istockphoto.com/id/2204517512/photo/young-woman-interacting-with-smartphone-floating-ui-elements-user-experience-and-mobile-app.jpg?s=612x612&w=0&k=20&c=c_8qoEP_cDTc2NBkFsMhdjm-RB8nXuGcyOZLe90sqKg=",
+    tech_stack: ["HTML", "CSS"],
+    live_url: "https://responsive-prototype.netlify.app/",
+    github_url:
+      "https://github.com/Muhammad-Umer-soo/css-work/tree/responsive-baker-ui",
   },
   {
     id: 5,
-    title: "Portfolio Generator",
+    title: "Animation",
     description:
-      "A SaaS tool that lets developers auto-generate polished portfolios from their GitHub profile data.",
+      "Smooth sun cycle animation using HTML & CSS, simulating day-to-night motion.",
     image:
-      "https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?w=600&q=80",
-    tech_stack: ["React", "Tailwind", "Supabase", "GitHub API"],
-    live_url: "https://demo.example.com",
-    github_url: "https://github.com",
+      "https://images.pexels.com/photos/27940303/pexels-photo-27940303.jpeg",
+    tech_stack: ["HTML", "CSS"],
+    live_url: "https://sun-cycle-animation.netlify.app/",
+    github_url:
+      "https://github.com/Muhammad-Umer-soo/css-work/tree/sun-cycle-animation",
   },
   {
     id: 6,
-    title: "Chat Application",
+    title: "ToDo App",
     description:
-      "Real-time messaging app with rooms, direct messages, file sharing, and online presence indicators.",
+      "A simple and responsive to-do app built with HTML, CSS, and JavaScript for managing daily tasks efficiently.",
     image:
       "https://images.unsplash.com/photo-1611746872915-64382b5c76da?w=600&q=80",
-    tech_stack: ["React", "Supabase", "JavaScript", "Tailwind"],
-    live_url: "https://demo.example.com",
-    github_url: "https://github.com",
+    tech_stack: ["JS", "CSS", "HTML"],
+    live_url: "https://todo-app-all-function.netlify.app/",
+    github_url:
+      "https://github.com/Muhammad-Umer-soo/LinkedIn-post/tree/Todo-App",
   },
 ];
 
