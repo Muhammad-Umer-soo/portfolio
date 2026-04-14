@@ -49,7 +49,7 @@ export default function Hero() {
           {/* Name */}
           <motion.h1
             variants={item}
-            className="font-display text-6xl md:text-8xl font-extrabold leading-none mb-6"
+            className="font-display text-2xl sm:text-5xl md:text-7xl lg:text-8xl font-extrabold leading-none mb-6"
           >
             <span className="block text-white">Muhammad Umer</span>
             <span className="block text-gradient mt-2">Frontend Dev</span>
@@ -58,7 +58,7 @@ export default function Hero() {
           {/* Tagline */}
           <motion.p
             variants={item}
-            className="text-slate-400 text-lg md:text-xl max-w-2xl mx-auto mb-10 leading-relaxed"
+            className="text-slate-400 text-sm sm:text-base   md:text-xl max-w-2xl mx-auto mb-10 leading-relaxed"
           >
             I craft{" "}
             <span className="text-slate-200 font-medium">
@@ -163,7 +163,7 @@ export default function Hero() {
       <motion.div
         animate={{ y: [0, -12, 0], rotate: [0, 2, 0] }}
         transition={{ repeat: Infinity, duration: 6, ease: "easeInOut" }}
-        className="absolute left-8 top-1/3 hidden xl:block font-mono text-xs text-brand-500/30 select-none"
+        className="absolute hidden sm:block left-4 top-1/3  xl:block font-mono text-xs text-brand-500/30 select-none"
       >
         <div>const dev = {"{"}</div>
         <div>
@@ -182,7 +182,7 @@ export default function Hero() {
           ease: "easeInOut",
           delay: 1,
         }}
-        className="absolute right-8 top-1/2 hidden xl:block font-mono text-xs text-brand-500/30 select-none"
+        className="absolute right-6 bottom-20 xl:block font-mono text-xs text-brand-500/30 select-none"
       >
         <div className="text-teal-500/30">{"<Portfolio"}</div>
         <div>

@@ -6,7 +6,6 @@ import {
   RiLoader4Line,
 } from "react-icons/ri";
 import { useProjects } from "../hooks/useProjects";
-import { map } from "framer-motion/client";
 
 function ProjectCard({ project, index }) {
   const [imgError, setImgError] = useState(false);
